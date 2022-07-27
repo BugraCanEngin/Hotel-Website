@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+  /* HEADER */
+  /* SHOW CASE */
+  /* INFO  */
+  /* FEATURES */
+  /*TESTIMONIALS*/ }
+  body .container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: hidden;
+    padding: 20px 0; }
+  body .navbar {
+    background: #333;
+    color: #fff;
+    overflow: auto; }
+    body .navbar .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 20px 20px;
+      display: flex;
+      text-align: center;
+      justify-content: space-between; }
+      body .navbar .container a {
+        color: #fff;
+        text-decoration: none; }
+      body .navbar .container ul {
+        list-style: none;
+        display: flex; }
+        body .navbar .container ul li {
+          margin: 0 20px; }
+          body .navbar .container ul li a:hover {
+            color: #f7c08a;
+            font-size: 18px;
+            font-weight: 700; }
+  body .show-case {
+    background: url("/dist/images/showcase.jpg") no-repeat center center/cover;
+    height: 600px; }
+    body .show-case .show-case-content {
+      text-align: center;
+      padding-top: 170px;
+      color: #fff; }
+      body .show-case .show-case-content h1 {
+        padding-bottom: 20px;
+        font-size: 60px;
+        line-height: 1.2em; }
+        body .show-case .show-case-content h1 span {
+          color: #f7c08a; }
+      body .show-case .show-case-content p {
+        padding-bottom: 40px;
+        font-size: 20px;
+        margin: 10px 0; }
+      body .show-case .show-case-content a {
+        text-decoration: none;
+        color: #fff;
+        background: #333;
+        padding: 13px 20px;
+        border: none;
+        font-size: 18px;
+        cursor: pointer; }
+        body .show-case .show-case-content a:hover {
+          background: #f7c08a; }
+  body .info {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    background: #333; }
+    body .info .info-img {
+      background: url("/dist/images/photo-1.jpg") no-repeat;
+      width: 50%;
+      min-height: 100%; }
+    body .info .info-content {
+      text-align: center;
+      color: #fff;
+      width: 50%;
+      height: 100%;
+      padding: 50px 30px;
+      overflow: hidden; }
+      body .info .info-content h2 {
+        padding-bottom: 20px; }
+        body .info .info-content h2 span {
+          color: #f7c08a; }
+      body .info .info-content p {
+        padding-bottom: 30px;
+        margin: 10px 0; }
+      body .info .info-content a {
+        text-decoration: none;
+        color: #333;
+        background: #f4f4f4;
+        font-size: 18px;
+        padding: 13px 20px;
+        border: none;
+        cursor: pointer; }
+        body .info .info-content a:hover {
+          background: #f7c08a; }
+  body .features {
+    display: flex;
+    justify-content: space-between;
+    text-align: center; }
+    body .features .box {
+      padding: 50px; }
+      body .features .box i {
+        margin-bottom: 10px; }
+      body .features .box h3 {
+        padding-bottom: 20px; }
+      body .features .box p {
+        margin: 10px 0; }
+    body .features .box-2 {
+      background: #f7c08a; }
+  body .main-footer {
+    background: #444;
+    text-align: center;
+    padding: 20px;
+    color: #fff; }
+    body .main-footer p {
+      margin: 10px 0; }
+  body .about-info {
+    height: 350px; }
+    body .about-info .container {
+      display: flex;
+      padding: 40px 20px;
+      overflow: auto;
+      max-width: 1100px;
+      min-height: 100%;
+      margin: auto; }
+      body .about-info .container .info-left {
+        width: 50%;
+        min-height: 100%; }
+        body .about-info .container .info-left h1 {
+          font-size: 40px;
+          padding-bottom: 20px; }
+          body .about-info .container .info-left h1 span {
+            color: #f7c08a; }
+        body .about-info .container .info-left p {
+          margin: 10px 0; }
+      body .about-info .container .info-right {
+        width: 50%;
+        min-height: 100%;
+        margin-left: 100px; }
+        body .about-info .container .info-right img {
+          margin: auto;
+          width: 80%;
+          border-radius: 50%; }
+  body .testimonials {
+    background: url("/dist/images/test-bg.jpg") no-repeat center center/cover;
+    height: 600px; }
+    body .testimonials .container h2 {
+      color: #f4f4f4;
+      text-align: center;
+      margin-top: 100px;
+      margin-bottom: 20px;
+      padding-bottom: 40px;
+      font-size: 40px; }
+    body .testimonials .container .testimonial {
+      display: flex;
+      background: #f7c08a;
+      opacity: 0.9;
+      margin-bottom: 40px;
+      padding: 20px;
+      border: 5px; }
+      body .testimonials .container .testimonial img {
+        width: 100px;
+        border-radius: 50%;
+        margin-right: 20px; }
+  body .contact-form {
+    padding: 30px 0; }
+    body .contact-form h1 {
+      font-size: 40px;
+      padding-bottom: 20px; }
+      body .contact-form h1 span {
+        color: #f7c08a; }
+    body .contact-form p {
+      margin: 10px 0; }
+    body .contact-form .form-group {
+      margin-bottom: 20px; }
+    body .contact-form label {
+      display: block;
+      margin-bottom: 5px;
+      cursor: default; }
+    body .contact-form input {
+      width: 100%;
+      padding: 10px;
+      border: 1px #ddd solid; }
+    body .contact-form textarea {
+      height: 200px;
+      width: 100%;
+      padding: 10px;
+      border: 1px #ddd solid; }
+    body .contact-form button {
+      background: #333;
+      cursor: pointer;
+      padding: 13px 30px;
+      color: #fff;
+      font-size: 18px;
+      border: none; }
+      body .contact-form button:hover {
+        background: #f7c08a; }
+  body .contact-info {
+    background: #333;
+    color: #fff; }
+    body .contact-info .container {
+      display: flex;
+      justify-content: space-between;
+      text-align: center; }
+      body .contact-info .container .box {
+        padding: 50px; }
+        body .contact-info .container .box i {
+          margin-bottom: 10px; }
+        body .contact-info .container .box h3 {
+          padding-bottom: 30px; }
+        body .contact-info .container .box p {
+          margin: 10px 0; }
